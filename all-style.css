@@ -6,7 +6,9 @@ body {
 }
 
 body main {
-    padding: 12%;
+    margin-left: 12%;
+    margin-right: 12%;
+    margin-top: 8%;
 }
 
 .head {
@@ -31,23 +33,24 @@ nav {
     display: flex;
     list-style: none;
     padding: 0;
+    margin-top: 32px;
 }
 
-.navi li{
+.navi a{
+    text-decoration: none;
     width: 20%;
     text-align: center;
     padding: 10px;
     background-color: rgba(0, 0, 0, 0.345);
 }
 
-.navi li a{
-    text-decoration: none;
+.navi a li{
     padding: 0.5rem;
     font-weight: bold;
     color: rgb(255, 255, 255);
 }
 
-.navi li + li {
+.navi a + a {
     border-left: 2px solid rgba(0, 0, 0, 0.486);
 }
 
@@ -98,4 +101,13 @@ footer {
 
 .footer a:hover {
     text-decoration: underline;
+}
+
+
+
+
+
+
+h1{
+    background-color: aqua;
 }
