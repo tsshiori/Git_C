@@ -5,14 +5,6 @@
     text-align: center;
 }
 
-body {
-    background-color: blue;
-}
-
-main {
-    background-color: blueviolet;
-}
-
 .carousel-caption {
     position: absolute;
     top: 50%;
@@ -57,3 +49,5 @@ main {
 #carouselExampleCaptions:hover .s_culture {
     text-shadow: 0 0 10px rgba(243, 239, 216, 0.8), 0 0 20px rgba(243, 239, 216, 0.8), 0 0 30px rgba(243, 239, 216, 0.8);
 }
+
+
