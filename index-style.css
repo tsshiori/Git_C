@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+#carouselExampleCaptions {
+    width: 100%;
+    text-align: center;
+}
+
+body {
+    background-color: blue;
+}
+
+main {
+    background-color: blueviolet;
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 100%;
+}
+
+.carousel-caption h2 {
+    color: #fff;
+    /* キャプションのテキストの色を指定 */
+    font-size: 145px;
+    /* キャプションのテキストのフォントサイズを指定 */
+    margin-top: 5%;
+}
+
+#carouselExampleCaptions img {
+    transition: filter 0.3s ease-in-out;
+    /* フィルター変更のアニメーションを追加 */
+
+    /* 通常のスタイル */
+    filter: brightness(100%);
+}
+
+#carouselExampleCaptions:hover img {
+    filter: brightness(70%);
+    /* カーソルが当たった時のスタイル（90%の明るさ） */
+}
+
+#carouselExampleCaptions:hover .s_spot {
+    text-shadow: 0 0 10px rgba(174, 244, 184, 0.8), 0 0 20px rgba(174, 244, 184, 0.8), 0 0 30px rgba(174, 244, 184, 0.8);
+}
+
+#carouselExampleCaptions:hover .s_food {
+    text-shadow: 0 0 10px rgba(144, 199, 214, 0.8), 0 0 20px rgba(219, 243, 250, 0.8), 0 0 30px rgba(219, 243, 250, 0.8);}
+
+#carouselExampleCaptions:hover .s_celebrity {
+    text-shadow: 0 0 10px rgba(243, 196, 248, 0.8), 0 0 20px rgba(243, 196, 248, 0.8), 0 0 30px rgba(243, 196, 248, 0.8);
+}
+
+#carouselExampleCaptions:hover .s_culture {
+    text-shadow: 0 0 10px rgba(243, 239, 216, 0.8), 0 0 20px rgba(243, 239, 216, 0.8), 0 0 30px rgba(243, 239, 216, 0.8);
+}
