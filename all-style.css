@@ -29,6 +29,7 @@ nav {
     padding: 0;
     margin-top: 32px;
 }
+
 .navi a{
     text-decoration: none;
     width: 20%;
@@ -36,11 +37,13 @@ nav {
     padding: 10px;
     background-color: rgba(0, 0, 0, 0.345);
 }
+
 .navi a li{
     padding: 0.5rem;
     font-weight: bold;
     color: rgb(255, 255, 255);
 }
+
 .navi a + a {
     border-left: 2px solid rgba(0, 0, 0, 0.486);
 }
