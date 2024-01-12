@@ -1,0 +1,25 @@
+@charset "UTF-8";
+main h1{
+    color: rgb(90, 88, 88);
+}
+main .container .box{
+    display: flex;
+}
+main span{
+    color: darkgray;
+}
+main ul li:hover{
+    color: darkgray;
+}
+main .box{
+    display: flex;
+}
+.box .img{
+    width: 50%;
+}
+.box .img img{
+    width: 600px;
+}
+.box .text{
+    width: 50%;
+}
