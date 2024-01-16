@@ -1,20 +1,18 @@
 @charset "UTF-8";
-
 body {
     font-family:Georgia, 'Times New Roman', Times, serif;
     min-width: 800px;
 }
-
 body main {
-    padding: 12%;
+    margin-left: 12%;
+    margin-right: 12%;
+    margin-top: 8%;
 }
-
 .head {
     background-image: url(img/iwate-top.jpg);
     background-size: 100%;
     height: 200px;
 }
-
 .head h1 {
     padding-top: 9px;
     color: white;
@@ -22,66 +20,56 @@ body main {
     padding-left: 15px;
     font-size: 50px;
 }
-
 nav {
     margin: 0 auto;
 }
-
 .navi {
     display: flex;
     list-style: none;
     padding: 0;
+    margin-top: 32px;
 }
 
-.navi li{
+.navi a{
+    text-decoration: none;
     width: 20%;
     text-align: center;
     padding: 10px;
     background-color: rgba(0, 0, 0, 0.345);
 }
 
-.navi li a{
-    text-decoration: none;
+.navi a li{
     padding: 0.5rem;
     font-weight: bold;
     color: rgb(255, 255, 255);
 }
 
-.navi li + li {
+.navi a + a {
     border-left: 2px solid rgba(0, 0, 0, 0.486);
 }
-
 .top:hover {
     background-color: rgba(51, 111, 163, 0.404);
 }
-
 .spot:hover {
     background-color: #aef4b94b;
 }
-
-
 .food:hover {
     background-color: #abf3fa54;
 }
-
 .celebrity:hover {
     background-color: #f3c4f858;
 }
-
 .culture:hover {
     background-color: #f3efd84e;
 }
-
 footer {
     padding: 0.5rem;
     text-align: center;
     color: rgb(59, 59, 158);
 }
-
 .footer {
     padding: 0;
 }
-
 .footer a {
     width: 20%;
     margin: 5px;
@@ -91,11 +79,9 @@ footer {
     text-decoration: none;
     color: rgb(59, 59, 158);
 }
-
 .footer a + a {
     border-left: 1px solid rgba(0, 0, 0, 0.486);
 }
-
 .footer a:hover {
     text-decoration: underline;
 }
