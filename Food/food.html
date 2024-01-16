@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Iwate's Charm Web</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link rel="stylesheet" href="food-style.css">
     <link rel="stylesheet" href="../all-style.css">
     <link rel="stylesheet" href="https://unpkg.com/modern-css-reset/dist/reset.min.css" />
@@ -23,9 +25,9 @@
                 <ul class="navi">
                     <li class="top"><a href="../index.html">TOP</a></li>
                     <li class="spot"><a href="../Spot/spot.html">SPOT</a></li>
-                    <li class="food"><a href="#">LOCAL FOOD</a></li>
+                    <li class="food"><a href="../Food/food.html">LOCAL FOOD</a></li>
                     <li class="celebrity"><a href="../Celebrity/celebrity.html">CELEBRITY</a></li>
-                    <li class="culture"><a href="../Culture/culture.html">CULTURE</a></li>
+                    <li class="culture"><a href="#">CULTURE</a></li>
                 </ul>
             </nav>
         </div>
@@ -33,82 +35,101 @@
     </header>
 
     <main>
-        <h1><span>LOCAL FOOD</span> ～三大麺～</h1>
+        <h1>LOCAL FOOD<span>~三大麺~</span></h1>
         <br>
         <h3>
             <ul>
-                <li><a href="#reimen"></a></li>
-                <li><a href="#zyazyamen"></a></li>
-                <li><a href="#wankosoba"></a></li>
+                <li><a href="#reimen">冷麺</a></li>
+                <li><a href="#zyazyamen">じゃじゃ麺</a></li>
+                <li><a href="#wankosoba">わんこそば</a></li>
             </ul>
         </h3>
         <br>
         <br>
         <div class="container">
-            <div class="box" id="">
+            <div class="box" id="reimen">
                 <div class="img">
                     <img src="img/冷麺.jpg" alt="冷麺">
                 </div>
                 <div class="text">
                     <h2>冷麺</h2>
-                    <p>「盛岡冷麺」は、朝鮮半島北部出身で日本に移住してきた食道園の青木輝人さんの手により盛岡で誕生しました。
+                    <p>
+                        「盛岡冷麺」は、朝鮮半島北部出身で日本に移住してきた食道園の青木輝人さんの手により盛岡で誕生しました。
                         小麦粉と澱粉による強いコシの麺が独特の歯ざわりを生み出しています。
-                        スープは牛骨・鳥肉等を煮込んで味付けしており、 飲み心地良くコクもたっぷりでキムチの辛さと相性ぴったりです。辛味が苦手な人もキムチの量で辛さを調節できます。そして、 ゆで卵、お肉、季節の果物などが盛りつけられることで多彩な味になります。
-                        </p>
-
+                        スープは牛骨・鳥肉等を煮込んで味付けしており、 飲み心地良くコクもたっぷりでキムチの辛さと相性ぴったりです。辛味が苦手な人もキムチの量で辛さを調節できます。そして、
+                        ゆで卵、お肉、季節の果物などが盛りつけられることで多彩な味になります。
+                    </p>
                 </div>
             </div>
+            <br>
+            <br>
+            <div class="box" id="zyazyamen">
+                <div class="text">
+                    <h2>じゃじゃ麺</h2>
+                    <p>
+                        「盛岡じゃじゃ麺」は、もともと「炒めみそうどん」という意味です。中国北東部の麺を参考に、白龍の高階貫勝さんが屋台から 始めた麺です。
+                        麺と特製味噌を良く混ぜ合わせ、お好みで、おろししょうが・酢・にんにく・ラー油を加えて食べてください。
+                        食べる程にくせになる味わいです。なお、麺と具は全部食べきらずに少しだけ残しておき、「ちーたんたん（鶏蛋湯）」と注文
+                        すると、おいしい玉子スープを味わうことができます。味噌に工夫を凝らした各お店の味をお楽しみください。
 
-            <div class="box" id="">
+                    </p>
+                </div>
                 <div class="img">
                     <img src="img/じゃじゃ麵.jpg" alt="じゃじゃ麺">
                 </div>
-                <div class="text">
-                    <h2>じゃじゃ麺</h2>
-                    <p>「盛岡じゃじゃ麺」は、もともと「炒めみそうどん」という意味です。中国北東部の麺を参考に、白龍の高階貫勝さんが屋台から 始めた麺です。
-                        麺と特製味噌を良く混ぜ合わせ、お好みで、おろししょうが・酢・にんにく・ラー油を加えて食べてください。 食べる程にくせになる味わいです。なお、麺と具は全部食べきらずに少しだけ残しておき、「ちーたんたん（鶏蛋湯）」と注文 すると、おいしい玉子スープを味わうことができます。
-                        </p>
-
-                </div>
             </div>
-
-            <div class="box" id="">
+            <br>
+            <br>
+            <div class="box" id="wankosoba">
                 <div class="img">
                     <img src="img/わんこそば.jpg" alt="わんこそば">
                 </div>
                 <div class="text">
                     <h2>わんこそば</h2>
-                    <p>「わんこそば」は、祖先から伝わる「おもてなしの心」から生まれたこの地独特の伝統食文化です。宴の席で 大勢のお客様をもてなすために考えられたと伝えられています。
+                    <p>
+                        わんこそば」は、祖先から伝わる「おもてなしの心」から生まれたこの地独特の伝統食文化です。宴の席で 大勢のお客様をもてなすために考えられたと伝えられています。
                         一口大の小分けにしたお蕎麦を様々な薬味と 共にたっぷりと味わっていただけます。店舗によっても異なりますが15杯前後で通常のもりそば一杯分。
                         お給仕さんとの掛け合いも楽しい、盛岡ならではの「わんこそば」をぜひご賞味ください。
-                        </p>
-
+                    </p>
                 </div>
             </div>
         </div>
         <br>
         <br>
-
-        <div class="box">
-            <h3>担当ライター：佐々木初菜</h3>
-            <div class="img">
-                <img src="">
+        <div class="box1">
+            <h3 class="h">
+                担当ライター<br>
+                佐々木初菜
+            </h3>
+            <div class="img2">
+                <img src="img/ダウンロード (1).jpg" alt="人もどき">
             </div>
         </div>
-
-
     </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+</body>
 
-    <footer>
-        <div class="footer">
-            <a href="../index.html">トップ</a>
-            <a href="../Spot/spot.html">観光地</a>
-            <a href="#">ご当地グルメ</a>
-            <a href="../Celebrity/celebrity.html">有名人</a>
-            <a href="../Culture/culture.html">文化</a>
-        </div>
-        <p>&copy; 2023 Morijyobi Git-C. All rights reserved.</p>
-    </footer>
+</main>
+<a class="toP" href="#">TOP
+    <span class="arrow1"></span>
+    <span class="arrow2"></span>
+</a><a class="toP" href="#">TOP
+    <span class="arrow1"></span>
+    <span class="arrow2"></span>
+</a>
+
+<footer>
+    <div class="footer">
+        <a href="../index.html">トップ</a>
+        <a href="../Spot/spot.html">観光地</a>
+        <a href="../Food/food.html">ご当地グルメ</a>
+        <a href="../Celebrity/celebrity.html">有名人</a>
+        <a href="#">文化</a>
+    </div>
+    <p>&copy; 2023 Morijyobi Git-C. All rights reserved.</p>
+</footer>
 </body>
 
 </html>
