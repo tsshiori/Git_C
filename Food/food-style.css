@@ -1,1 +1,15 @@
 @charset "UTF-8";
+.frame{
+    margin-bottom: 2rem;
+    display: flow-root;
+    display: flow-root;
+    
+ }
+ .box{
+    display: flex;
+ }
+ .box .img{
+    width: 800px;
+    padding: 0;
+    margin: 0;
+ }
