@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Iwate's Charm Web</title>
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link rel="stylesheet" href="celebrity-style.css">
     <link rel="stylesheet" href="../all-style.css">
     <link rel="stylesheet" href="https://unpkg.com/modern-css-reset/dist/reset.min.css" />
@@ -22,11 +23,21 @@
             <h1>Iwate's Charm Web</h1>
             <nav>
                 <ul class="navi">
-                    <a class="top" href="../index.html"><li>TOP</li></a>
-                    <a class="spot" href="../Spot/spot.html"><li>SPOT</li></a>
-                    <a class="food" href="../Food/food.html"><li>LOCAL FOOD</li></a>
-                    <a class="celebrity" href="#"><li>CELEBRITY</li></a>
-                    <a class="culture" href="../Culture/culture.html"><li>CULTURE</li></a>
+                    <a class="top" href="../index.html">
+                        <li>TOP</li>
+                    </a>
+                    <a class="spot" href="../Spot/spot.html">
+                        <li>SPOT</li>
+                    </a>
+                    <a class="food" href="../Food/food.html">
+                        <li>LOCAL FOOD</li>
+                    </a>
+                    <a class="celebrity" href="#">
+                        <li>CELEBRITY</li>
+                    </a>
+                    <a class="culture" href="../Culture/culture.html">
+                        <li>CULTURE</li>
+                    </a>
                 </ul>
             </nav>
         </div>
@@ -34,42 +45,87 @@
     </header>
 
     <main>
-        <h1><span>CELEBRITY</span>~有名人~</h1>
+        <h1>CELEBRITY<span>~有名人~</span></h1>
         <br>
         <h3>
             <ul>
-                <li></li>
-                <li></li>
-                <li></li>
+                <li><a href="#kenji">宮沢賢治</a></li>
+                <li><a href="#takashi">原敬</a></li>
+                <li><a href="#takuboku">石川啄木</a></li>
             </ul>
         </h3>
         <br>
         <br>
         <div class="container">
-            <div class="box">
-                <div class="img"></div>
-                <div class="text"></div>
+            <div class="box" id="kenji">
+                <div class="img">
+                    <img src="img/宮沢賢治.jpg" alt="宮沢賢治">
+                </div>
+                <div class="text">
+                    <h2>宮沢賢治</h2>
+                    <p>
+                        詩人、童話作家。 大正7(1918)年盛岡高等農林学校卒業後、家業に従事。
+                        また農業指導者として農民生活の向上に尽くす傍ら、東北地方の自然や生活を題材に詩や童話を執筆し、
+                        大正13(1924)年詩集『春と修羅』、童話集『注文の多い料理店』を自費出版した。<br>
+                        賢治は三十七年という短い生涯の中で、詩約八百篇、童話約百篇をはじめとする膨大な数の作品を生み出した。
+                        中でも特に親しまれているのは童話ですが、賢治の童話は決して児童文学の枠に収まるものではない。
+                    </p>
+                </div>
             </div>
-            <div class="box">
-                <div class="img"></div>
-                <div class="text"></div>
+            <br>
+            <br>
+            <div class="box" id="takashi">
+                <div class="text">
+                    <h2>原敬</h2>
+                    <p>
+                        統計に関心を持ち、総理大臣として 我が国の統計の発展に尽力した数少ない人の一人。
+                        具体的には、大正9年5月、総理大臣として自らの手で内閣統計局と軍需局を合併して内閣に国勢院を創設し、
+                        統計発展の基盤を整備するとともにこの年の10月、我が国で最初の国勢調査を実施した。<br>
+                        原敬内閣は、陸軍・海軍・外務の３相を除く他の大臣を政友会で占めた最初の本格的政党内閣で、
+                        交通機関整備・教育奨励・産業貿易振興・国防充実の四大政綱を掲げ積極政策をとった。
+                    </p>
+                </div>
+                <div class="img">
+                    <img src="img/原敬.jpg" alt="原敬">
+                </div>
             </div>
-            <div class="box">
-                <div class="img"></div>
-                <div class="text"></div>
+            <br>
+            <br>
+            <div class="box" id="takuboku">
+                <div class="img">
+                    <img src="img/石川啄木.jpg" alt="石川啄木">
+                </div>
+                <div class="text">
+                    <h2>石川啄木</h2>
+                    <p>
+                        早くから明星派のロマン主義的詩人として知られた。
+                        北海道・東京など各地を転々とし，貧苦と病苦の中で，生活に即した平明な３行書きの短歌をよむ。
+                        晩年，社会主義思想に傾斜。 肺結核で死亡。<br>
+                        27年という短い生涯のうちに、数多くの作品を生み出した啄木。
+                        故郷の岩手県で療養していた際に、キツツキの木をつつく音が聞こえてきたことが、名前の由来であると言われている。
+                    </p>
+                </div>
             </div>
         </div>
 
         <br>
         <br>
-        <div class="box">
-            <h3>担当ライター：菊池悠希</h3>
+        <div class="box1">
+            <h3 class="h">
+                担当ライター<br>
+                菊池悠希
+            </h3>
             <div class="img2">
-                <img src="">
+                <img src="img/ロボットパルタ.jpg" alt="ロボットパルタ">
             </div>
         </div>
 
     </main>
+    <a class="toP" href="#">TOP
+        <span class="arrow1"></span>
+        <span class="arrow2"></span>
+    </a>
+
 
     <footer>
         <div class="footer">
@@ -82,7 +138,9 @@
         <p>&copy; 2023 Morijyobi Git-C. All rights reserved.</p>
     </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
 
 
 </body>
