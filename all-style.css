@@ -1,12 +1,11 @@
 @charset "UTF-8";
 body {
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     min-width: 800px;
 }
 body main {
-    margin-left: 12%;
-    margin-right: 12%;
-    margin-top: 8%;
+    padding-left: 12%;
+    padding-right: 12%;
 }
 .head {
     background-image: url(img/iwate-top.jpg);
@@ -29,22 +28,19 @@ nav {
     padding: 0;
     margin-top: 32px;
 }
-
-.navi a{
+.navi a {
     text-decoration: none;
     width: 20%;
     text-align: center;
     padding: 10px;
     background-color: rgba(0, 0, 0, 0.345);
 }
-
-.navi a li{
+.navi a li {
     padding: 0.5rem;
     font-weight: bold;
     color: rgb(255, 255, 255);
 }
-
-.navi a + a {
+.navi a+a {
     border-left: 2px solid rgba(0, 0, 0, 0.486);
 }
 .top:hover {
@@ -79,7 +75,7 @@ footer {
     text-decoration: none;
     color: rgb(59, 59, 158);
 }
-.footer a + a {
+.footer a+a {
     border-left: 1px solid rgba(0, 0, 0, 0.486);
 }
 .footer a:hover {
