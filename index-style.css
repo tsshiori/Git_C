@@ -34,26 +34,31 @@
 #carouselExampleCaptions:hover .s_food {
     text-shadow: 0 0 10px rgba(144, 199, 214, 0.8), 0 0 20px rgba(219, 243, 250, 0.8), 0 0 30px rgba(219, 243, 250, 0.8);
 }
+
 #carouselExampleCaptions:hover .s_celebrity {
     text-shadow: 0 0 10px rgba(243, 196, 248, 0.8), 0 0 20px rgba(243, 196, 248, 0.8), 0 0 30px rgba(243, 196, 248, 0.8);
 }
 #carouselExampleCaptions:hover .s_culture {
     text-shadow: 0 0 10px rgba(243, 239, 216, 0.8), 0 0 20px rgba(243, 239, 216, 0.8), 0 0 30px rgba(243, 239, 216, 0.8);
 }
+
 .row {
     width: 80%;
     margin: 0 auto;
 }
+
 .card img {
     width: 90%;
     height: 90%;
     margin: 0 auto;
 }
+
 .card .airu {
     margin-top: 9%;
     margin-bottom: 9%;
     border-radius: 10px;
 }
+
 .card {
     box-shadow: 5px 7px 10px rgb(0, 0, 0, 8);
 }
