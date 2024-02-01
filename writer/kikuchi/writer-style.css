@@ -25,7 +25,9 @@ main h1{
 }
 
 .text p{
-    font-size: 38px;
+    font-size: 52px;
+    font-weight: bold;
+    line-height: 2.6;
 }
 
 
