@@ -1,6 +1,7 @@
 @charset "UTF-8";
 main .box{
     display: flex;
+    margin-bottom: 51px;
 }
 .box .img{
     width: 50%;
@@ -13,7 +14,7 @@ main ul li a{
 
 .box .text{
     width: 50%;
-    padding-left: 8px;
+    padding-left: 23px;
 }
 .box .text2{
     width: 50%;
@@ -21,11 +22,11 @@ main ul li a{
 }
 
 main h1{
-    background: linear-gradient(transparent 70%, #f3efd8 70%);
+    background: linear-gradient(transparent 70%, #abf3fa54 70%);
 }
 
 .text p{
-    font-size: 50px;
+    font-size: 40px;
 }
 
 .toP {
@@ -134,12 +135,10 @@ h3 {
     position: relative;
     display: inline-block;
     padding: 0 55px;
-  }
-  
-  h3 {
     display: flex;
     align-items: center;
-}
+  }
+  
 h3:before,
 h3:after {
     content: "";
@@ -152,4 +151,16 @@ h3:before {
 }
 h3:after {
     margin-left: 1rem;
+}
+.font{
+    font-size: 47px;
+}
+.text h2{
+    text-align: center;
+}
+.container{
+    padding-left: 10px;
+}
+footer{
+    margin-top: 17px;
 }
